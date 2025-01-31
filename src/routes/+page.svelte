@@ -26,21 +26,21 @@
 			<div class="namecard">
 				<img
 					src={ProfilePicture}
-					alt="Ellie facing away from the camera, wearing a grey backpack. She is looking at a skyline in the distance, lit in the warm, orange glow of late evening"
+					alt="Joshua staring towards the camera forcing a smile knowing full well he has been debugging code for 3 Days straight to find out perforce has not pushed everything to the repo."
 					class="pfp"
 					draggable="false"
 				/>
 				<div style="font-size: 1.75rem;">Joshua Pickering</div>
-				<div style="font-size: 1rem;">Software Engineer, Technical Director, Maker</div>
+				<div style="font-size: 1rem;">Software Developer, Gameplay Programmer, Maker</div>
 				<div class="socials">			
-					<a href="https://youtube.com/@elliemakesgames"><Youtube /></a>
-					<a href="https://github.com/whoisEllie">
+					<a href="https://youtube.com/@EncodicUE"><Youtube /></a>
+					<a href="https://github.com/Encodic">
 						<Github />
 					</a>
-					<a href="https://www.linkedin.com/in/ellie-kelemen/">
+					<a href="https://www.linkedin.com/in/joshua-pickering-3752b6178/">
 						<Linkedin />
 					</a>
-					<a href="mailto:elliekelemen@protonmail.com">
+					<a href="mailto:pickeringjoshua1999@gmail.com">
 						<Mail />
 					</a>
 					<button
@@ -49,16 +49,16 @@
 							if (navigator.share) {
 								navigator
 									.share({
-										title: "Ellie's Portfolio",
-										text: "Share a quick link to ellie's portfolio and socials",
-										url: 'https://links.elliekelemen.com'
+										title: "Joshua's Links",
+										text: "Share a quick link to Josh's portfolio and socials",
+										url: 'https://linktr.ee/Encodic'
 									})
 									.then(() => console.log('Shared successfully'))
 									.catch(() => {
 										console.log('Encountered an error while sharing');
 									});
 							} else {
-								window.open('https://links.elliekelemen.com');
+								window.open('https://linktr.ee/Encodic');
 							}
 						}}
 					>
@@ -70,54 +70,36 @@
 	</div>
 	<div class="scrolling">
 		<div>
-			I'm a game & software developer with a deep love for technical design. <br /><br /> Currently,
-			I'm in the final year of my Masters degree in Computer Science at the University of Exeter.
-			Alongside my studies, I work part-time as a VR & AI developer at
-			<a href="#orbital">Orbital Media</a>, where I build VR applications for healthcare, and
-			engineer generative AI video solutions for use in interactive educational content. I also
-			build & maintain an open-source plugin called
-			<a href="#fpscore">FPS Core</a>, which and work on a multiplayer game called
-			<a href="#warbound">Warbound</a>.
-			<br /><br />
-			Previously, I've worked as a frontend developer at <a href="#hatless">Hatless Studios</a>,
-			where I built advanced frontends with the React framework. I've also and interned at
-			<a href="#madfinger">MADFINGER Games</a>
-			, where I worked as a QA tester on Shadowgun Legends.
-			<br /><br /> In my spare time, you can probably find me on a mountain somewhere, hiking!
+			I'm a developer with history in games and software spanning over multiple years. <br /><br />
+			I studied Art and Design at college focusing on Game Design and Development, since then heavily self taught gaining experience on personal and professional projects. During college I was had work experience as a Game Tester at <a href="dumplingdesign">Dumpling Design</a> aiding the future updates to their mobile game 'Smash Tanks!'.<br /><br />
+			My first ever big project was the freelance work I've done for <a href="#moonmengames">Moonmen Games</a> on 'Worlds Of The Future' an epic open world sci game. During that time I was also working my first
+			software development job at <a href="dhp11">Dhp11 LTD</a> working on a 3D Telecommunication planning software to aid Clients with an accurate 3D representation of their Telecommunication sites utlizing the power of Unreal Engine. 
 		</div>
 		<h2>Work Experience</h2>
 		<div class="experience">
 			<ExperienceCard
-				Title="Orbital Global Group"
-				date="2024 - 2025"
-				Role="Software Developer in VR & AI"
-				url="https://orbitalglobalgroup.com/"
-				id="orbital"
-				Description="Built VR applications in partnership with the NHS, using the Unity game engine. Worked with GenAI tools, including Runway, to generate interactive videos for training & recruitment purposes. Developed custom generative AI pipelines using ComfyUI and custom LoRA training to ensure consistent characters across a variety of scenes."
+				Title="Moonmen Games"
+				date="2018 - Present"
+				Role="Freelance Developer"
+				url="https://moonmengames.com/"
+				id="moonmengames"
+				Description="Developed Assets and Gameplay Systems including: Custom A* path finding solution for space ship interiors, procedural station generator and more. Also wrote a blog post on GameDev.Tv"
 			/>
 			<ExperienceCard
-				Title="Hatless Studios"
-				date="2023 - 2024"
-				Role="Frontend Software Engineer & Infrastructure Developer"
-				url="https://www.linkedin.com/company/hatless-studios/"
-				id="hatless"
-				Description="Worked with clients to develop 10+ websites for various businessess across Exeter and the Southwest. Wrote and maintained large codebased in React, predominantly using TypeScript. Maintained and expanded Nix-based infrastructure, including CI/CD and web hosting."
+				Title="Dhp11 LTD"
+				date="2018 - 2020"
+				Role="Software Developer & BIM Technician"
+				url="https://www.dhp11.com"
+				id="dhp11"
+				Description="Worked with clients to develop and integrate telecommunication components for our telecommunication planning application Oasis 3D (Originally called TIDBO), whilst also providing updates and hotfixes to the application itself. Also lead development on some projects related to the application."
 			/>
 			<ExperienceCard
-				Title="Summer Game Dev"
-				date="Summer 2021"
-				Role="Game Designer"
-				url="https://summer-game-dev.itch.io/giants-bridge"
-				id="sgd"
+				Title="Dumpling Design"
+				date="Winter 2017"
+				Role="QA Tester - Work Experience"
+				url="http://dumplingdesign.com"
+				id="dumplingdesign"
 				Description="Led the design of our game 'Giant's Bridge' during the 2021 instance of Summer Game Dev, writing technical documentation, running playtests, and co-ordinating the rest of the development team."
-			/>
-			<ExperienceCard
-				Title="MADFINGER Games"
-				date="Summer 2018"
-				Role="QA Intern"
-				url="https://www.madfingergames.com/"
-				id="madfinger"
-				Description="Assisted in the QA process for Shadowgun Legends, investigating player reports and detailing findings in internal documentation."
 			/>
 		</div>
 		<button
@@ -135,45 +117,6 @@
 				Description="A multiplayer FPS/RTS, currently in development in Unreal Engine 5"
 				slug="warbound"
 			/>
-			<ProjectCard
-				Image={FPSCoreThumbnail}
-				Alt="Image"
-				Title="FPS Core"
-				Description="A first-person shooter framework for Unreal Engine, facilitating easy setup and deep customization of FPS projects"
-				slug="fpscore"
-			/>
-			<ProjectCard
-				Image={ProjectIsolationThumbnail}
-				Alt="Image"
-				Title="Project Isolation"
-				Description="A singleplayer open-world FPS, built on Unreal Engine 4.27 whose development led to the creation of FPS Core "
-				slug="isolation"
-			/>
-			<!--
-			<ProjectCard
-				Image={GiantsBridgeThumbnail}
-				Alt="Image"
-				Title="Giant's Bridge"
-				Description="A third-person couch co-op game built as part of Summer Game Dev 2021."
-				slug="giantsbridge"
-			/>
-			-->
-			<ProjectCard
-				Image={FallBlauThumbnail}
-				Alt="Image"
-				Title="Fall Blau"
-				Description="An authentic WW2 FPS, built in Unreal Engine and my first exploration and use of C++ programming"
-				slug="fallblau"
-			/>
-			<!--
-			<ProjectCard
-				Image={RainstoneThumbnail}
-				Alt="Image"
-				Title="Rainstone"
-				Description="An early game jam project and my first experience working with a team."
-				slug="rainstone"
-			/>
-			-->
 		</div>
 
 		<a href="https://github.com/whoisEllie/portfolio" class="acknowledgment">
