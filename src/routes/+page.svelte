@@ -30,12 +30,9 @@
 					class="pfp"
 					draggable="false"
 				/>
-				<div style="font-size: 1.75rem;">Ellie Kelemen</div>
+				<div style="font-size: 1.75rem;">Joshua Pickering</div>
 				<div style="font-size: 1rem;">Software Engineer, Technical Director, Maker</div>
-				<div class="socials">
-					<a href="https://bsky.app/profile/elliekelemen.com">
-						<Bluesky />
-					</a>
+				<div class="socials">			
 					<a href="https://youtube.com/@elliemakesgames"><Youtube /></a>
 					<a href="https://github.com/whoisEllie">
 						<Github />
