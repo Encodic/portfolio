@@ -3,12 +3,10 @@
 	import ExperienceCard from '$lib/components/experiencecard.svelte';
 
 	// images
+	import GamedevTvThumbnail from '$lib/images/WorldsOfTheFuture/GamedevTV-Post.png';
 	import WarboundThumbnail from '$lib/images/Warbound/Warbound.gif';
-	import FPSCoreThumbnail from '$lib/images/FPSCore/FPSCore_Thumb.png';
-	import ProjectIsolationThumbnail from '$lib/images/ProjectIsolation.png';
-	import GiantsBridgeThumbnail from '$lib/images/GiantsBridge.jpg';
-	import FallBlauThumbnail from '$lib/images/FallBlau.jpg';
-	import RainstoneThumbnail from '$lib/images/Rainstone.png';
+	import CollegeSpitfireDemo from '$lib/images/SpitfireDemo/SpitfireDemoThumbnail.jpg'
+	import CollegeTowerDefense from '$lib/images/TowerDefense/TowerDefenseThumbnail.jpg'
 	import ProfilePicture from '$lib/images/pfp.jpg';
 
 	// icons
@@ -31,7 +29,7 @@
 					draggable="false"
 				/>
 				<div style="font-size: 1.75rem;">Joshua Pickering</div>
-				<div style="font-size: 1rem;">Software Developer, Gameplay Programmer, Maker</div>
+				<div style="font-size: 1rem; color: #E2BE73">Software Developer, Gameplay Programmer, Maker</div>
 				<div class="socials">			
 					<a href="https://youtube.com/@EncodicUE"><Youtube /></a>
 					<a href="https://github.com/Encodic">
@@ -69,13 +67,14 @@
 		</div>
 	</div>
 	<div class="scrolling">
+		<h2 style= "color: #E2BE73">About Me</h2>
 		<div>
 			I'm a developer with history in games and software spanning over multiple years. <br /><br />
-			I studied Art and Design at college focusing on Game Design and Development, since then heavily self taught gaining experience on personal and professional projects. During college I was had work experience as a Game Tester at <a href="dumplingdesign">Dumpling Design</a> aiding the future updates to their mobile game 'Smash Tanks!'.<br /><br />
-			My first ever big project was the freelance work I've done for <a href="#moonmengames">Moonmen Games</a> on 'Worlds Of The Future' an epic open world sci game. During that time I was also working my first
-			software development job at <a href="dhp11">Dhp11 LTD</a> working on a 3D Telecommunication planning software to aid Clients with an accurate 3D representation of their Telecommunication sites utlizing the power of Unreal Engine. 
+			I studied Art and Design at college focusing on Game Design and Development, since then heavily self taught gaining experience on personal and professional projects. During college I was had work experience as a Game Tester at <a style = "color: #E2BE73" href="#dumplingdesign">Dumpling Design</a> aiding the future updates to their mobile game 'Smash Tanks!'.<br /><br />
+			My first ever big project was the freelance work I've done for <a style = "color: #E2BE73" href="#moonmengames">Moonmen Games</a> on 'Worlds Of The Future' an epic open world sci game. During that time I was also working my first
+			software development job at <a style = "color: #E2BE73" href="#dhp11">Dhp11 LTD</a> working on a 3D Telecommunication planning software to aid Clients with an accurate 3D representation of their Telecommunication sites utlizing the power of Unreal Engine. 
 		</div>
-		<h2>Work Experience</h2>
+		<h2 style= "color: #E2BE73">Work Experience</h2>
 		<div class="experience">
 			<ExperienceCard
 				Title="Moonmen Games"
@@ -83,7 +82,7 @@
 				Role="Freelance Developer"
 				url="https://moonmengames.com/"
 				id="moonmengames"
-				Description="Developed Assets and Gameplay Systems including: Custom A* path finding solution for space ship interiors, procedural station generator and more. Also wrote a blog post on GameDev.Tv"
+				Description="Working on 'Worlds Of The Future' by developing assets and gameplay systems including: Custom A* path finding solution for space ship interiors, procedural station generator and more. Also wrote a blog post on GameDev.Tv"
 			/>
 			<ExperienceCard
 				Title="Dhp11 LTD"
@@ -99,7 +98,7 @@
 				Role="QA Tester - Work Experience"
 				url="http://dumplingdesign.com"
 				id="dumplingdesign"
-				Description="Led the design of our game 'Giant's Bridge' during the 2021 instance of Summer Game Dev, writing technical documentation, running playtests, and co-ordinating the rest of the development team."
+				Description="Provided feedback and ideas to the development team at Dumpling Design aiding with bug fixing and feature testing by doing Quality Assurance for their mobile game 'Smash Tanks!'."
 			/>
 		</div>
 		<button
@@ -108,18 +107,39 @@
 				window.open('resume.pdf');
 			}}>find more employment details on my <u>resume</u></button
 		>
-		<h2>Projects</h2>
+		<h2 style= "color: #E2BE73">Projects</h2>
 		<div class="projects">
 			<ProjectCard
 				Image={WarboundThumbnail}
 				Alt="Image"
 				Title="Warbound"
-				Description="A multiplayer FPS/RTS, currently in development in Unreal Engine 5"
+				Description="A WW2 multiplayer FPS/RTS, currently in development in Unreal Engine 5."
 				slug="warbound"
+			/>
+			<ProjectCard
+				Image={GamedevTvThumbnail}
+				Alt="Image"
+				Title="GameDev.Tv Blog Post"
+				Description="A blog post I made in 2021 for GameDev.Tv who reached out to me about Worlds Of The Future."
+				slug="https://www.gamedev.tv/articles/creating-an-open-world-space-game"
+			/>
+			<ProjectCard
+				Image={CollegeTowerDefense}
+				Alt="Image"
+				Title="Final Major Project - Tower Defence Game"
+				Description="My final major project for my college course."
+				slug="https://www.youtube.com/watch?v=8t6ss-kaheE"
+			/>
+			<ProjectCard
+				Image={CollegeSpitfireDemo}
+				Alt="Image"
+				Title="First Major Project - Spitfire Demo"
+				Description="My first major project for my first year of college."
+				slug="https://www.youtube.com/watch?v=WMN-2pf0nn4"
 			/>
 		</div>
 
-		<a href="https://github.com/whoisEllie/portfolio" class="acknowledgment">
+		<a href="https://github.com/Encodic/portfolio" class="acknowledgment">
 			{'Built with ❤️  & SvelteKit'}
 		</a>
 	</div>
@@ -190,6 +210,10 @@
 		display: flex;
 		justify-content: center;
 		gap: 1rem;
+	}
+
+	.socials :hover{
+		color: #E2BE73;
 	}
 
 	.share-button {

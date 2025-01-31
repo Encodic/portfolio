@@ -27,7 +27,7 @@
 			<div class="role">
 				{Role}
 			</div>
-			<hr />
+			<hr color="#E2BE73"/>
 		</div>
 		<div class="description">
 			{Description}
@@ -63,6 +63,7 @@
 	.card:hover .arrow {
 		padding-left: 0.5rem;
 		padding-right: 0;
+		color: #E2BE73;
 	}
 
 	.card-inner {
@@ -76,6 +77,10 @@
 		gap: 0.5rem;
 		font-size: 24px;
 		font-weight: 500;
+	}
+
+	.card:hover .title {
+		color: #E2BE73;
 	}
 
 	.role {

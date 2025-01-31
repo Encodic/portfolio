@@ -26,11 +26,12 @@
 	.card {
 		border-radius: 30px;
 		border: 3px solid #e0e0e0;
-		padding: 0.25rem;
 		overflow: hidden;
 		cursor: pointer;
 		text-decoration: none;
 		color: black;
+		outline: black;
+		outline-width: 30px;
 		box-shadow:
 			8px 8px 16px #cccccc,
 			-8px -8px 16px #ffffff;
@@ -44,10 +45,18 @@
 		}
 	}
 
+	.card :hover .title {
+		color: #E2BE73;
+	}
+
 	.card-inner {
 		display: flex;
 		overflow: hidden;
-		border-radius: 25px;
+		border-radius: 0px;
+		background-color: #e9e9e9;
+		@media (prefers-color-scheme: dark){
+			background-color: #1D2026;
+		}
 	}
 
 	.image {
