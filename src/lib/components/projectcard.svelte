@@ -4,11 +4,12 @@
 		Description,
 		Image,
 		Alt,
-		slug
-	}: { Title: string; Description: string; Image: string; Alt: string; slug: string } = $props();
+		slug,
+		id
+	}: { Title: string; Description: string; Image: string; Alt: string; slug: string; id: string; } = $props();
 </script>
 
-<a class="card" href={slug} id={slug}>
+<a class="card" href={slug} id={id}>
 	<div class="card-inner">
 		<img class="image" src={Image} alt={Alt} draggable="false" />
 		<div class="text">
@@ -30,8 +31,6 @@
 		cursor: pointer;
 		text-decoration: none;
 		color: black;
-		outline: black;
-		outline-width: 30px;
 		box-shadow:
 			8px 8px 16px #cccccc,
 			-8px -8px 16px #ffffff;
@@ -45,15 +44,18 @@
 		}
 	}
 
-	.card :hover .title {
+	.card:hover {
+		border: 3px solid #E2BE73;
+	}
+
+	.card:hover .title {
 		color: #E2BE73;
 	}
 
 	.card-inner {
 		display: flex;
 		overflow: hidden;
-		border-radius: 0px;
-		background-color: #e9e9e9;
+		background-color: #f1f1f1;
 		@media (prefers-color-scheme: dark){
 			background-color: #1D2026;
 		}

@@ -1,0 +1,20 @@
+---
+
+title: Worlds Of The Future
+
+---
+
+<script>
+	import Title from '$lib/components/title.svelte';
+	import Carousel from '$lib/components/carousel.svelte';
+
+	import WOTFThumbnail from '$lib/images/WorldsOfTheFuture/WorldsOfTheFutureThumbnail.gif';
+</script>
+
+<Title text={title}/>
+
+The indie game Worlds Of The Future is a futuristic open world, 3rd person single player, action/adventure game.
+
+<Carousel images={new Array(WOTFThumbnail)}/>
+
+

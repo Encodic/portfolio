@@ -16,7 +16,7 @@
 		margin: 0;
 		padding: 0;
 		font-family: Lexend Deca;
-		background-color: #f0f0f0;
+		background-color: white;
 
 		@media (prefers-color-scheme: dark) {
 			background-color: #121212;

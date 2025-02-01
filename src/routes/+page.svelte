@@ -73,7 +73,7 @@
 		<div>
 			I'm a developer with history in games and software spanning over multiple years. <br /><br />
 			I studied Art and Design at college focusing on Game Design and Development, since then heavily self taught gaining experience on personal and professional projects. During college I was had work experience as a Game Tester at <a style = "color: #E2BE73" href="#dumplingdesign">Dumpling Design</a> aiding the future updates to their mobile game 'Smash Tanks!'.<br /><br />
-			My first ever big project was the freelance work I've done for <a style = "color: #E2BE73" href="#moonmengames">Moonmen Games</a> on 'Worlds Of The Future' an epic open world sci game. During that time I was also working my first
+			My first ever big project was the freelance work I've done for <a style = "color: #E2BE73" href="#moonmengames">Moonmen Games</a> on 'Worlds Of The Future' an epic open world sci game. I also had the privlege to write a blog post about <a style = "color: #E2BE73" href="#gamedevtvwotf">Worlds Of The Future</a>. During that time I was also working my first
 			software development job at <a style = "color: #E2BE73" href="#dhp11">Dhp11 LTD</a> working on a 3D Telecommunication planning software to aid Clients with an accurate 3D representation of their Telecommunication sites utlizing the power of Unreal Engine. <br/><br/>
 
 		</div>
@@ -85,7 +85,7 @@
 				Role="Freelance Developer"
 				url="https://moonmengames.com/"
 				id="moonmengames"
-				Description="Working on 'Worlds Of The Future' by developing assets and gameplay systems including: Custom A* path finding solution for space ship interiors, procedural station generator and more. Also wrote a blog post on GameDev.Tv"
+				Description="Working on 'Worlds Of The Future' by developing assets and gameplay systems including: Custom A* path finding solution for space ship interiors, procedural station generator and more. Also wrote a blog post on GameDev.tv"
 			/>
 			<ExperienceCard
 				Title="Dhp11 LTD"
@@ -118,6 +118,7 @@
 				Title="Warbound"
 				Description="A WW2 multiplayer FPS/RTS. Currently in development in Unreal Engine 5."
 				slug="warbound"
+				id="warbound"
 			/>
 			<ProjectCard
 				Image={WOTFThumbnail}
@@ -125,13 +126,15 @@
 				Title="Worlds Of The Future"
 				Description="A vibrant open world sci-fi action/adventure. Currently in development in Unreal Engine 5."
 				slug="https://www.youtube.com/watch?v=lfCZ2Qy3Duc"
+				id="worldsofthefuture"
 			/>	
 			<ProjectCard
 				Image={GamedevTvThumbnail}
 				Alt="Image"
-				Title="GameDev.Tv Blog Post"
-				Description="A blog post I made in 2021 for GameDev.Tv who reached out to me about Worlds Of The Future."
+				Title="GameDev.tv Blog Post"
+				Description="A blog post I made in 2021 for GameDev.tv who reached out to me about Worlds Of The Future."
 				slug="https://www.gamedev.tv/articles/creating-an-open-world-space-game"
+				id="gamedevtvwotf"
 			/>
 			<ProjectCard
 				Image={CollegeTowerDefense}
@@ -139,6 +142,7 @@
 				Title="Final Major Project - Tower Defence Game"
 				Description="My final major project for my college course. Made in Unreal Engine 4."
 				slug="https://www.youtube.com/watch?v=8t6ss-kaheE"
+				id="collegetowerdefense"
 			/>
 			<ProjectCard
 				Image={CollegeSpitfireDemo}
@@ -146,6 +150,7 @@
 				Title="First Major Project - Spitfire Demo"
 				Description="My first major project for my first year of college. Made in Unreal Engine 4."
 				slug="https://www.youtube.com/watch?v=WMN-2pf0nn4"
+				id="collegespitfiredemo"
 			/>
 			<ProjectCard
 				Image={CollegeProjectShuffle}
@@ -153,6 +158,7 @@
 				Title="First College Project - Project Shuffle"
 				Description="My first project for my first year of college. Made in Gamemaker: Studio."
 				slug=""
+				id="collegeprojectshuffle"
 			/>
 		</div>
 
