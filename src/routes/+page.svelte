@@ -108,7 +108,7 @@
 			class="resume"
 			on:click={() => {
 				window.open('resume.pdf');
-			}}>find more employment details on my <u>resume</u></button
+			}}>find more employment details on my <u style = "color: #E2BE73">resume</u></button
 		>
 		<h2 style= "color: #E2BE73">Projects</h2>
 		<div class="projects">
@@ -235,7 +235,7 @@
 		gap: 1rem;
 	}
 
-	.socials :hover{
+	.socials:hover {
 		color: #E2BE73;
 	}
 
