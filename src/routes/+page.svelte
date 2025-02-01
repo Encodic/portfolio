@@ -235,7 +235,7 @@
 		gap: 1rem;
 	}
 
-	.socials:hover {
+	.socials :hover {
 		color: #E2BE73;
 	}
 
