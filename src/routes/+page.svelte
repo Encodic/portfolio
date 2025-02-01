@@ -72,8 +72,8 @@
 		<h2 style= "color: #E2BE73">About Me</h2>
 		<div>
 			I'm a developer with history in games and software spanning over multiple years. <br /><br />
-			I studied Art and Design at college focusing on Game Design and Development, since then heavily self taught gaining experience on personal and professional projects. During college I was had work experience as a Game Tester at <a style = "color: #E2BE73" href="#dumplingdesign">Dumpling Design</a> aiding the future updates to their mobile game 'Smash Tanks!'.<br /><br />
-			My first ever big project was the freelance work I've done for <a style = "color: #E2BE73" href="#moonmengames">Moonmen Games</a> on 'Worlds Of The Future' an epic open world sci game. I also had the privlege to write a blog post about <a style = "color: #E2BE73" href="#gamedevtvwotf">Worlds Of The Future</a>. During that time I was also working my first
+			I studied Art and Design at college focusing on Game Design and Development, since then heavily self taught gaining experience on personal and professional projects. During college I had work experience as a Game Tester at <a style = "color: #E2BE73" href="#dumplingdesign">Dumpling Design</a> aiding future updates to their mobile game 'Smash Tanks!'.<br /><br />
+			My first ever big project was the freelance work I've done for <a style = "color: #E2BE73" href="#moonmengames">Moonmen Games</a> on '<a style = "color: #E2BE73" href="#worldsofthefuture">Worlds Of The Future</a>' an epic open world sci game. I also had the privlege to write a blog post about that project on <a style = "color: #E2BE73" href="https://www.gamedev.tv/articles/creating-an-open-world-space-game">GameDev.tv</a>. During that time I was also working my first
 			software development job at <a style = "color: #E2BE73" href="#dhp11">Dhp11 LTD</a> working on a 3D Telecommunication planning software to aid Clients with an accurate 3D representation of their Telecommunication sites utlizing the power of Unreal Engine. <br/><br/>
 
 		</div>

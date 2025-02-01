@@ -19,7 +19,7 @@
 		background-color: white;
 
 		@media (prefers-color-scheme: dark) {
-			background-color: #121212;
+			background-color: #282C34;
 			color: white;
 		}
 	}
