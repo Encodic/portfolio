@@ -4,7 +4,7 @@
 
 	// images
 	import GamedevTvThumbnail from '$lib/images/WorldsOfTheFuture/GamedevTV-Post.png';
-	import WarboundThumbnail from '$lib/images/Warbound/Warbound.gif';
+	import WarboundThumbnail from '$lib/images/Warbound/WarboundThumbnail.gif';
 	import WOTFThumbnail from '$lib/images/WorldsOfTheFuture/WorldsOfTheFutureThumbnail.gif';
 	import CollegeSpitfireDemo from '$lib/images/SpitfireDemo/SpitfireDemoThumbnail.jpg';
 	import CollegeTowerDefense from '$lib/images/TowerDefense/TowerDefenseThumbnail.jpg';
