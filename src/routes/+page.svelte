@@ -5,8 +5,10 @@
 	// images
 	import GamedevTvThumbnail from '$lib/images/WorldsOfTheFuture/GamedevTV-Post.png';
 	import WarboundThumbnail from '$lib/images/Warbound/Warbound.gif';
-	import CollegeSpitfireDemo from '$lib/images/SpitfireDemo/SpitfireDemoThumbnail.jpg'
-	import CollegeTowerDefense from '$lib/images/TowerDefense/TowerDefenseThumbnail.jpg'
+	import WOTFThumbnail from '$lib/images/WorldsOfTheFuture/WorldsOfTheFutureThumbnail.gif';
+	import CollegeSpitfireDemo from '$lib/images/SpitfireDemo/SpitfireDemoThumbnail.jpg';
+	import CollegeTowerDefense from '$lib/images/TowerDefense/TowerDefenseThumbnail.jpg';
+	import CollegeProjectShuffle from '$lib/images/ProjectShuffle/ProjectShuffleThumbnail.jpg';
 	import ProfilePicture from '$lib/images/pfp.jpg';
 
 	// icons
@@ -72,7 +74,8 @@
 			I'm a developer with history in games and software spanning over multiple years. <br /><br />
 			I studied Art and Design at college focusing on Game Design and Development, since then heavily self taught gaining experience on personal and professional projects. During college I was had work experience as a Game Tester at <a style = "color: #E2BE73" href="#dumplingdesign">Dumpling Design</a> aiding the future updates to their mobile game 'Smash Tanks!'.<br /><br />
 			My first ever big project was the freelance work I've done for <a style = "color: #E2BE73" href="#moonmengames">Moonmen Games</a> on 'Worlds Of The Future' an epic open world sci game. During that time I was also working my first
-			software development job at <a style = "color: #E2BE73" href="#dhp11">Dhp11 LTD</a> working on a 3D Telecommunication planning software to aid Clients with an accurate 3D representation of their Telecommunication sites utlizing the power of Unreal Engine. 
+			software development job at <a style = "color: #E2BE73" href="#dhp11">Dhp11 LTD</a> working on a 3D Telecommunication planning software to aid Clients with an accurate 3D representation of their Telecommunication sites utlizing the power of Unreal Engine. <br/><br/>
+
 		</div>
 		<h2 style= "color: #E2BE73">Work Experience</h2>
 		<div class="experience">
@@ -113,9 +116,16 @@
 				Image={WarboundThumbnail}
 				Alt="Image"
 				Title="Warbound"
-				Description="A WW2 multiplayer FPS/RTS, currently in development in Unreal Engine 5."
+				Description="A WW2 multiplayer FPS/RTS. Currently in development in Unreal Engine 5."
 				slug="warbound"
 			/>
+			<ProjectCard
+				Image={WOTFThumbnail}
+				Alt="Image"
+				Title="Worlds Of The Future"
+				Description="A vibrant open world sci-fi action/adventure. Currently in development in Unreal Engine 5."
+				slug="https://www.youtube.com/watch?v=lfCZ2Qy3Duc"
+			/>	
 			<ProjectCard
 				Image={GamedevTvThumbnail}
 				Alt="Image"
@@ -127,15 +137,22 @@
 				Image={CollegeTowerDefense}
 				Alt="Image"
 				Title="Final Major Project - Tower Defence Game"
-				Description="My final major project for my college course."
+				Description="My final major project for my college course. Made in Unreal Engine 4."
 				slug="https://www.youtube.com/watch?v=8t6ss-kaheE"
 			/>
 			<ProjectCard
 				Image={CollegeSpitfireDemo}
 				Alt="Image"
 				Title="First Major Project - Spitfire Demo"
-				Description="My first major project for my first year of college."
+				Description="My first major project for my first year of college. Made in Unreal Engine 4."
 				slug="https://www.youtube.com/watch?v=WMN-2pf0nn4"
+			/>
+			<ProjectCard
+				Image={CollegeProjectShuffle}
+				Alt="Image"
+				Title="First College Project - Project Shuffle"
+				Description="My first project for my first year of college. Made in Gamemaker: Studio."
+				slug=""
 			/>
 		</div>
 
