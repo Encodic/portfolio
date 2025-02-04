@@ -101,6 +101,7 @@
 		flex-direction: column;
 		justify-content: flex-end;
 		@media screen and (max-width: 650px) {
+			font-size: 10px;
 			color: #E2BE73;
 			justify-content: flex-end;
 		}
