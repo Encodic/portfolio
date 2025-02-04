@@ -7,7 +7,7 @@
 	import WarboundThumbnail from '$lib/images/Warbound/WarboundThumbnail.gif';
 	import WOTFThumbnail from '$lib/images/WorldsOfTheFuture/WorldsOfTheFutureThumbnail.gif';
 	import CollegeSpitfireDemo from '$lib/images/SpitfireDemo/SpitfireDemoThumbnail.gif';
-	import CollegeTowerDefense from '$lib/images/TowerDefense/TowerDefenseThumbnail.jpg';
+	import CollegeTowerDefense from '$lib/images/TowerDefense/TowerDefenseThumbnail.gif';
 	import CollegeProjectShuffle from '$lib/images/ProjectShuffle/ProjectShuffleThumbnail.jpg';
 	import ProfilePicture from '$lib/images/pfp.jpg';
 
