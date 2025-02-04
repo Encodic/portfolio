@@ -6,7 +6,7 @@
 	import GamedevTvThumbnail from '$lib/images/WorldsOfTheFuture/GamedevTV-Post.png';
 	import WarboundThumbnail from '$lib/images/Warbound/WarboundThumbnail.gif';
 	import WOTFThumbnail from '$lib/images/WorldsOfTheFuture/WorldsOfTheFutureThumbnail.gif';
-	import CollegeSpitfireDemo from '$lib/images/SpitfireDemo/SpitfireDemoThumbnail.jpg';
+	import CollegeSpitfireDemo from '$lib/images/SpitfireDemo/SpitfireDemoThumbnail.gif';
 	import CollegeTowerDefense from '$lib/images/TowerDefense/TowerDefenseThumbnail.jpg';
 	import CollegeProjectShuffle from '$lib/images/ProjectShuffle/ProjectShuffleThumbnail.jpg';
 	import ProfilePicture from '$lib/images/pfp.jpg';
@@ -117,7 +117,7 @@
 				Alt="Image"
 				Title="Warbound"
 				Description="A WW2 multiplayer FPS/RTS. Currently in development in Unreal Engine 5."
-				Skills="Unreal Engine, Perforce, C++, Unreal Engine Blueprints, Figma, Blender"
+				Skills="Unreal Engine, UE Blueprints, C++, Perforce, Figma, Blender"
 				slug="warbound"
 				id="warbound"
 			/>
@@ -126,7 +126,7 @@
 				Alt="Image"
 				Title="Worlds Of The Future"
 				Description="A vibrant open world sci-fi action/adventure. Currently in development in Unreal Engine 5."
-				Skills="Unreal Engine, Unreal Engine Blueprints, Blender"
+				Skills="Unreal Engine, UE Blueprints, Blender"
 				slug="https://www.youtube.com/watch?v=lfCZ2Qy3Duc"
 				id="worldsofthefuture"
 			/>	
@@ -144,7 +144,7 @@
 				Alt="Image"
 				Title="FMP - Tower Defence Game"
 				Description="My final major project for my college course. Made in Unreal Engine 4."
-				Skills="Unreal Engine, Unreal Engine Blueprints, Blender"
+				Skills="Unreal Engine, UE Blueprints, Blender"
 				slug="https://www.youtube.com/watch?v=8t6ss-kaheE"
 				id="collegetowerdefense"
 			/>
@@ -153,7 +153,7 @@
 				Alt="Image"
 				Title="FMP - Spitfire Demo"
 				Description="My first major project for my first year of college. Made in Unreal Engine 4."
-				Skills="Unreal Engine, Unreal Engine Blueprints, Blender"
+				Skills="Unreal Engine, UE Blueprints, Blender"
 				slug="https://www.youtube.com/watch?v=WMN-2pf0nn4"
 				id="collegespitfiredemo"
 			/>
