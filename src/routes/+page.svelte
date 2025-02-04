@@ -86,7 +86,7 @@
 				url="https://moonmengames.com/"
 				id="moonmengames"
 				Description="Working on 'Worlds Of The Future' by developing assets and gameplay systems including: Custom A* path finding solution for space ship interiors, procedural station generator and more. Also wrote a blog post on GameDev.tv"
-			/>
+				/>
 			<ExperienceCard
 				Title="Dhp11 LTD"
 				date="2018 - 2020"
@@ -117,6 +117,7 @@
 				Alt="Image"
 				Title="Warbound"
 				Description="A WW2 multiplayer FPS/RTS. Currently in development in Unreal Engine 5."
+				Skills="Unreal Engine, Perforce, C++, Unreal Engine Blueprints, Figma, Blender"
 				slug="warbound"
 				id="warbound"
 			/>
@@ -125,6 +126,7 @@
 				Alt="Image"
 				Title="Worlds Of The Future"
 				Description="A vibrant open world sci-fi action/adventure. Currently in development in Unreal Engine 5."
+				Skills="Unreal Engine, Unreal Engine Blueprints, Blender"
 				slug="https://www.youtube.com/watch?v=lfCZ2Qy3Duc"
 				id="worldsofthefuture"
 			/>	
@@ -134,29 +136,33 @@
 				Title="GameDev.tv Blog Post"
 				Description="A blog post I made in 2021 for GameDev.tv who reached out to me about Worlds Of The Future."
 				slug="https://www.gamedev.tv/articles/creating-an-open-world-space-game"
+				Skills=""
 				id="gamedevtvwotf"
 			/>
 			<ProjectCard
 				Image={CollegeTowerDefense}
 				Alt="Image"
-				Title="Final Major Project - Tower Defence Game"
+				Title="FMP - Tower Defence Game"
 				Description="My final major project for my college course. Made in Unreal Engine 4."
+				Skills="Unreal Engine, Unreal Engine Blueprints, Blender"
 				slug="https://www.youtube.com/watch?v=8t6ss-kaheE"
 				id="collegetowerdefense"
 			/>
 			<ProjectCard
 				Image={CollegeSpitfireDemo}
 				Alt="Image"
-				Title="First Major Project - Spitfire Demo"
+				Title="FMP - Spitfire Demo"
 				Description="My first major project for my first year of college. Made in Unreal Engine 4."
+				Skills="Unreal Engine, Unreal Engine Blueprints, Blender"
 				slug="https://www.youtube.com/watch?v=WMN-2pf0nn4"
 				id="collegespitfiredemo"
 			/>
 			<ProjectCard
 				Image={CollegeProjectShuffle}
 				Alt="Image"
-				Title="First College Project - Project Shuffle"
+				Title="FMP - Project Shuffle"
 				Description="My first project for my first year of college. Made in Gamemaker: Studio."
+				Skills="Gamemaker: Studio, GML(Gamemaker Language)"
 				slug=""
 				id="collegeprojectshuffle"
 			/>

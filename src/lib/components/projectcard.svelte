@@ -2,11 +2,12 @@
 	let {
 		Title,
 		Description,
+		Skills,
 		Image,
 		Alt,
 		slug,
 		id
-	}: { Title: string; Description: string; Image: string; Alt: string; slug: string; id: string; } = $props();
+	}: { Title: string; Description: string; Skills: string; Image: string; Alt: string; slug: string; id: string; } = $props();
 </script>
 
 <a class="card" href={slug} id={id}>
@@ -18,6 +19,9 @@
 			</div>
 			<div class="description">
 				{Description}
+			</div>
+			<div class="skills">
+				{Skills}
 			</div>
 		</div>
 	</div>
@@ -88,5 +92,17 @@
 	.title {
 		font-size: 24px;
 		font-weight: 500;
+	}
+
+	.skills {
+		font-size: 12px;
+		color:#8f8f8f;  
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		@media screen and (max-width: 650px) {
+			color: #E2BE73;
+			justify-content: flex-end;
+		}
 	}
 </style>
