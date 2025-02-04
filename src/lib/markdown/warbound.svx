@@ -9,22 +9,27 @@ title: Warbound
 	import Carousel from '$lib/components/carousel.svelte';
 
 	import WarboundThumbnail from '$lib/images/Warbound/WarboundThumbnail.gif';
-	import WarboundUI from '$lib/images/Warbound/Warbound_UI.png';
+	import WarboundProceduralWalking from '$lib/images/Warbound/WarboundProceduralWalking.gif';
+	import WarboundModifications from '$lib/images/Warbound/WarboundModifications.gif';
+	import WarboundUIPlayer from '$lib/images/Warbound/Warbound_UI_Player.png';
+	import WarboundUIScoreboard from '$lib/images/Warbound/Warbound_UI_Scoreboard.png';
 </script>
 
 <Title text={title}/>
 
-<Carousel images={new Array(WarboundThumbnail, WarboundUI)} </>
+<Carousel images={new Array(WarboundThumbnail,WarboundProceduralWalking,WarboundModifications,WarboundUIPlayer,WarboundUIScoreboard)} </>
 
-Warbound is a large-scale multiplayer FPS/RTS game, intended as a spiritual successor to Heroes & Generals. I was one of the co-founders of the team, working primarily as a technical designer and gameplay programmer aiding mostly in weapon systems and weapon architecture.
+Warbound is a large-scale multiplayer FPS/RTS game, intended as a spiritual successor to Heroes & Generals. I was one of the co-founders of the team and we have been in development since April 2024, working primarily as a technical designer and gameplay programmer aiding mostly in weapon systems and weapon architecture. 
 
-Since I've been there from the beginning I have also aided in developing the technical infrastructure where needed which will be the foundations the game is built upon. The architecture itself is based on Epic Games 'Lyra' starter project. We could of simply built Warbound off the Lyra project itself, but they was a lot of Lyra we either didn't need or simply wasn't best designed for our purpose. So for us Lyra is a great guideline which has been great for backend and frontend systems.
+Since I've been there from the beginning I have also aided in developing the technical infrastructure where needed which will be the foundations the game is built upon. The architecture itself is based on Epic Games 'Lyra' starter project. We could of simply built Warbound off the Lyra project itself, but they was a lot of Lyra we either didn't need or simply wasn't best designed for our purpose. So for us Lyra is a great guideline which has been great for backend and frontend systems. Though because of this we had to start from scratch in April 2025 but have been better for it and made amazing progress since, surpassing our previous project in many ways.
 
 When it comes to what I've worked on even though I have aided in the technical infrastructure, I have been leading development of the weapon and gameplay systems. For weapons this includes fully custom weapon ballistics, dynamic reload system that was designed to support unique WW2 weaponry and also a AAA quality advanced weapon base system.  In regards of gameplay systems I have had a special focus on ensuring easy future expansion and designer access, enabling non-technical users to easily tweak the functionality of core systems to contribute to the design process. 
 
 During this I have implemented over 15,000 lines of quality C++ code whilst also making sure core parts support networking due to this being a multiplayer project. I have also integrated code into blueprints due to working via a hybrid workflow which has all contributed to core systems like movement, animation pipelines, weapon systems, networking and player inventory.
 
 Whilst working on the weapons I have also temporarily took on providing animations to our weapons, some hand-made others procedural. Whilst designing the weapons structure I took into account of how many animations each weapon would need, with it being multiplayer the needs almost double since you have the players perspective being first person animations and then other players perspective being full body animations. So I wrote a list covering all animations a weapon might likely need and studied which ones I could make procedural or even just simplify the process whilst keeping the quality. One thing I noticed was movement animations are a big chunk of the list. So for those I developed fully procedural walking animations that adjust to players speed, crouch tilt and procedural swaying (Looking, falling). Thus cutting out a decent chunk of animations meaning myself and future animators can focus more on the core weapon animations like reload animations. 
+
+I have also been designing the UI concept for the game as seen above, for this I have been using Figma whilst also gathering a vast mood board to aid in design the best and visually pleasing UI for the games needs. For me simple but bold is my philosophy behind the design of the UI for Warbound. So far I have concepted the UI for the players HUD, scoreboard and crosshairs. I have also started concept for the main menu and the players profile. 
 
 Beyond development I have also been actively engaging with our growing community, as a small indie team our priority is all about building and maintaining trust with our community. End of the day you don't have a game without a community. I have been an active engager gathering feedback and thoughts from community members building up research and expectations that we can take into account whilst designing and working on this project. Our goal is full transparency with our community, sure we develop the foundations for the game but the community is the ground the foundations are built upon. I have also participated in some of our development streams that are bi-weekly lead by another developer which have garnered an average of 100+ views per session. All this has strengthened our community and gained their trust in us.
 
