@@ -8,7 +8,7 @@
 	import WOTFThumbnail from '$lib/images/WorldsOfTheFuture/WorldsOfTheFutureThumbnail.gif';
 	import CollegeSpitfireDemo from '$lib/images/SpitfireDemo/SpitfireDemoThumbnail.gif';
 	import CollegeTowerDefense from '$lib/images/TowerDefense/TowerDefenseThumbnail.gif';
-	import CollegeProjectShuffle from '$lib/images/ProjectShuffle/ProjectShuffleThumbnail.jpg';
+	import CollegeProjectShuffle from '$lib/images/ProjectShuffle/ProjectShuffleThumbnail.gif';
 	import ProfilePicture from '$lib/images/pfp.jpg';
 
 	// icons
