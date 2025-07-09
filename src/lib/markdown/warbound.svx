@@ -31,7 +31,7 @@ For weapons, I have implemented:
 
 - A fully custom ballistics system
 - A dynamic reload system designed to support unique WW2 weaponry
-- A high-quality, advanced weapon base system in which all weapons we be built off
+- A high-quality, advanced weapon base system in which all weapons will be built off
 
 On the gameplay side, I have placed a strong emphasis on future-proofing the project by ensuring core systems are modular and accessible. This allows non-technical designers to tweak functionality without needing to write code, making iteration more efficient.
 
